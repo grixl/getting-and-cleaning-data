@@ -12,30 +12,30 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 1. Merged the training and the test sets to create one data set.
 2. Extracted only the measurements on the mean and standard deviation for each measurement.
 3. Applied descriptive activity names to name the activities in the data set
-        * 1 WALKING
-        * 2 WALKING_UPSTAIRS
-        * 3 WALKING_DOWNSTAIRS
-        * 4 SITTING
-        * 5 STANDING
-        * 6 LAYING
+    * 1 WALKING
+    * 2 WALKING_UPSTAIRS
+    * 3 WALKING_DOWNSTAIRS
+    * 4 SITTING
+    * 5 STANDING
+    * 6 LAYING
 4. Appropriately labeled the data set with descriptive variable names.
-        * Expanded variable names starting with ```t``` to ```time```
-        * Expanded variable names starting with ```f``` to ```frequency```
-        * Expanded variable names starting with ```Acc``` to ```Acceleration```
-        * Expanded variable names starting with ```Gyro``` to ```Gyroscope```
-        * Expanded variable names starting with ```Mag``` to ```Magnitude```
+    * Expanded variable names starting with ```t``` to ```time```
+    * Expanded variable names starting with ```f``` to ```frequency```
+    * Expanded variable names starting with ```Acc``` to ```Acceleration```
+    * Expanded variable names starting with ```Gyro``` to ```Gyroscope```
+    * Expanded variable names starting with ```Mag``` to ```Magnitude```
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 # Tidy data set variable names
- [1] "subject"                                              
- [2] "activity"                                             
- [3] "timeBodyAcceleration-mean()-X"                        
- [4] "timeBodyAcceleration-mean()-Y"                        
- [5] "timeBodyAcceleration-mean()-Z"                        
- [6] "timeGravityAcceleration-mean()-X"                     
- [7] "timeGravityAcceleration-mean()-Y"                     
- [8] "timeGravityAcceleration-mean()-Z"                     
- [9] "timeBodyAccelerationJerk-mean()-X"                    
+[1] "subject"                                              
+[2] "activity"                                             
+[3] "timeBodyAcceleration-mean()-X"                        
+[4] "timeBodyAcceleration-mean()-Y"                        
+[5] "timeBodyAcceleration-mean()-Z"                        
+[6] "timeGravityAcceleration-mean()-X"                     
+[7] "timeGravityAcceleration-mean()-Y"                     
+[8] "timeGravityAcceleration-mean()-Z"                     
+[9] "timeBodyAccelerationJerk-mean()-X"                    
 [10] "timeBodyAccelerationJerk-mean()-Y"                    
 [11] "timeBodyAccelerationJerk-mean()-Z"                    
 [12] "timeBodyGyroscope-mean()-X"                           
